@@ -1,0 +1,11 @@
+.footer__email-img{
+    width: 2rem;
+    height:1.8rem ;
+    margin-right:1.1rem ;
+    margin-bottom: 2.13rem;
+}
+@media (max-width:48em){
+    .footer__email-img{
+        display: none;
+    }
+ }

@@ -1,0 +1,15 @@
+.clients__ros-cosmos{
+    width: 15.3rem;
+    height: 6.3rem;
+    margin-right: 6rem;
+}
+@media (max-width:48em){
+    .clients__ros-cosmos{
+        width: 33rem;
+        height: 11.1rem;
+        margin-right: 0;
+        margin-bottom: 0;
+        padding-left: 7rem;
+        order: 4;
+    }
+  }

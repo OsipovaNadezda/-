@@ -1,0 +1,18 @@
+.facts__item{
+    cursor: pointer;
+    padding: 2.6rem 3.1rem 2.1rem 2rem;
+    
+&:not(:last-child){
+    margin-bottom: 2.5rem;
+}
+}
+
+@media (max-width:48em){
+    .facts__item{
+        padding: 3rem 3.2rem 2.8rem 3.4rem;
+        
+    &:not(:last-child){
+        margin-bottom: 2rem;
+    }
+    }
+ }

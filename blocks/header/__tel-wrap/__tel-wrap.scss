@@ -1,0 +1,10 @@
+.header__tel-wrap {
+    @include cenflex;
+    padding-right: 1.1rem;
+    }
+    
+    @media (max-width:48em){
+        .header__tel-wrap {
+          display: none ;
+        }
+      }

@@ -1,0 +1,17 @@
+.header__info-wrap{
+    width: 18.4rem;
+    margin-top: 0.45rem;
+    margin-left: 0.05rem;
+  }
+
+  @media (max-width:48em){
+    .header__info-wrap{
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      width: 26.5rem;
+      margin-top: 0;
+      margin-left: 0rem;
+    }
+  }

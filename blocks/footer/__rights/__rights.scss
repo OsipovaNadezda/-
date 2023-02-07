@@ -1,0 +1,9 @@
+.footer__rights{
+    @include font(500, 1.4rem, 140%);
+    font-family: 'Inter', sans-serif;
+}
+@media (max-width:48em){
+    .footer__rights{
+        display: none;
+  }
+}

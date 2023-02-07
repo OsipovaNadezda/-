@@ -1,0 +1,16 @@
+.item-delivery__link{
+    @include font(normal, 1.5rem, 150%);
+   display: inline-block;
+   border-bottom:.1rem dashed #E7EAEF;
+   padding-left: .5rem;
+  //  &:not(:last-child){
+  //   padding-left: 1rem;
+  // }
+}
+
+@media (max-width:48em){
+    .item-delivery__link{
+        @include font(normal, 2.6rem, 150%);
+        border-bottom:.2rem dashed #E7EAEF;
+          }
+        }

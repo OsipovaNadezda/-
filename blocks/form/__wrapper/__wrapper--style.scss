@@ -1,0 +1,16 @@
+.form__wrapper--style{
+    background: url('../img/form/form_back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 3.6rem 8.4rem -2.4rem rgba(43, 51, 80, 0.5);
+    border-radius: 1.6rem;
+    color:#FFFFFF;
+}
+
+@media (max-width:48em){
+    .form__wrapper--style{
+      background: url('../img/form/form_back-mobile.jpg');
+      border-radius: 0;
+    }
+ }

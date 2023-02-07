@@ -1,0 +1,14 @@
+.slider{
+    position: relative;
+    padding-top: 11.6rem;
+    padding-bottom: 13.1rem;
+}
+
+@media (max-width:48em){
+    .slider {
+        & .button__drive{
+display: none;
+        }
+     
+    }
+}

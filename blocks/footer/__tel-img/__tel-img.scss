@@ -1,0 +1,12 @@
+.footer__tel-img{
+    width: 2.1rem;
+    height: 2.3rem;
+    margin-right: 1.1rem;
+    margin-bottom: 2.47rem;
+    padding-top: 0.4rem;
+}
+@media (max-width:48em){
+    .footer__tel-img{
+      display: none;
+    }
+ }

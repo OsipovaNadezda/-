@@ -1,0 +1,19 @@
+.clients__pid{
+    width: 11rem;
+    height: 5rem;
+    margin-right: 7.5rem;
+
+    padding-left: 1rem;
+}
+
+@media (max-width:48em){
+    .clients__pid{
+        width: 25.6rem;
+        height: 7.4rem;
+        padding-left: 4.6rem;
+        // text-align: center;
+        padding-top: -1rem;
+        margin-right: 11.6rem;
+        margin-bottom: 1.4rem;
+    }
+  }

@@ -1,0 +1,10 @@
+.modal-form__title{
+    @include font(700, 4.6rem, 120%);
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width:48em){
+    .modal-form__title{
+        @include font(700, 3.5rem, 120%);
+    }
+}

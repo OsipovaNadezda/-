@@ -1,0 +1,14 @@
+.drive__wrap--style{
+    background: url('../img/drive/visit-bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 3.6rem 8.4rem -2.4rem rgba(255, 255, 255, 0.15);
+    border-radius: 4.0rem;
+}
+
+@media (max-width:48em){
+    .drive__wrap--style{
+        background:transparent;
+    }
+  }

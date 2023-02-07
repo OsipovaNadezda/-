@@ -1,0 +1,11 @@
+.facts__text{
+    @include font(600, 2.2rem, 140%);
+    font-family: 'Inter', sans-serif;
+}
+
+@media (max-width:48em){
+    .facts__text{
+        @include font(600, 2.8rem, 100%);
+    }
+ }
+

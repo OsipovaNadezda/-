@@ -1,0 +1,19 @@
+.catalog__cart-coin--old{
+ @include font(700, 2rem, 140%);
+  margin-bottom: 2rem;
+position: relative;
+padding-top: 0.4rem;
+padding-left: 0.7rem;
+ }
+
+ @media (max-width:48em){
+  .catalog__cart-coin--old{
+    @include font(700, 3.4rem, 140%);
+      padding-top: 0;
+      padding-left: 0;
+      span{
+        text-align: start;
+      }
+ 
+      }
+}

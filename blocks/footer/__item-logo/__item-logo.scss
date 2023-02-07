@@ -1,0 +1,12 @@
+.footer__item-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+ }
+
+ @media (max-width:48em){
+    .footer__item-logo{
+      margin-bottom: 4rem;
+     }
+}

@@ -1,0 +1,8 @@
+.slider__wrap{
+    max-width: 64rem;
+}
+@media (max-width:48em){
+    .slider__wrap{
+        max-width: 34.4rem;
+    }
+}

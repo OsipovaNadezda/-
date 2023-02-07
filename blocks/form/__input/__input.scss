@@ -1,0 +1,27 @@
+.form__input{
+width: 42.3rem;
+height: 8.1rem;
+
+padding-left: 7rem; 
+padding-right: 3.4rem;
+@include font(400,1.7rem, 124%);
+
+&::placeholder{
+    color: #FFFFFF;
+@include font(500,1.8rem, 122%);
+    }
+  }
+
+  @media (max-width:48em){
+    .form__input{
+        width: 49.6rem;
+        height: 12.6rem;
+        
+        padding-left: 10rem; 
+             @include font(400,3.4rem, 124%);
+        
+        &::placeholder{
+              @include font(500,3.2rem, 119%);
+            }
+          }
+  }

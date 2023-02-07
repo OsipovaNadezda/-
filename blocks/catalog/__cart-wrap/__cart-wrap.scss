@@ -1,0 +1,31 @@
+.catalog__cart-wrap{
+    width: 28.1rem;
+    min-height: 54.5rem;
+    @include centered;
+    flex-direction: column;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+@media (min-width: 48em){
+  .catalog__cart-wrap{
+    &:hover{
+    position: absolute;
+    top:0;
+    left:50%;
+    transform: translate(-50%, 0);
+    z-index: 10;
+
+    width: 33rem;
+    border: .1rem solid #F3F4F7;
+    box-shadow: 0 2.0rem 5.2rem -.8rem rgba(0, 0, 0, 0.15);
+    border-radius: 1.6rem;
+    padding: 4.7rem;
+    padding-top: 5.5rem;
+
+    & .button__cart{
+        display: block;
+    }
+}
+}  
+}

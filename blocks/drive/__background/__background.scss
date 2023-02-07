@@ -1,0 +1,10 @@
+.drive__background{
+    display: none;
+}
+
+@media (max-width:48em){
+    .drive__background{
+        display: block;
+        width: 100%;
+    }
+}

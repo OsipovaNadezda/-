@@ -1,0 +1,15 @@
+.item-delivery__icon--size{
+    width:8.8rem ;
+    height:8.8rem ;
+}
+
+@media (max-width:48em){
+    .item-delivery__icon--size{
+        width:9.6rem ;
+        height:9.6rem ;
+        margin-bottom: 0;
+        margin-right: 1.6rem;
+        flex-shrink: 0;
+    }
+    
+    }

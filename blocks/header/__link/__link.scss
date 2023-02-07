@@ -1,0 +1,15 @@
+.header__link {
+  @include font(500, 1.6rem, 140%);
+  color:#2B3350;
+  }
+
+.header__link:hover {
+ border-bottom: .1rem dashed #0074d4;
+ padding-bottom: .2rem;
+ }
+
+
+.header__link:not(:last-child) {
+ margin-right: 3.16rem;
+}
+

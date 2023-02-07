@@ -1,0 +1,14 @@
+.clients__pobeda{
+    width: 13.7rem;
+    height: 4rem;
+    padding-left: 0.8rem;
+}
+@media (max-width:48em){
+    .clients__pobeda{
+        width: 25.8rem;
+        height: 6rem;
+        margin-bottom: 0;
+        margin-top: -4rem;
+        order: 6;
+    }
+  }

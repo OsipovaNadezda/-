@@ -1,0 +1,13 @@
+.footer__logo-wrap{
+    width: 18.4rem;
+    height: 4.2rem;
+    margin-bottom: 1.5rem;
+}
+@media (max-width:48em){
+    .footer__logo-wrap{
+        width: 36.8rem;
+        height: 8.4rem;
+        margin-bottom: 4rem;
+        order:1;
+    }
+ }

@@ -1,0 +1,13 @@
+.catalog__cart-img{
+    margin-bottom: 5.5rem;
+    width: 27.8rem;
+    height: 32.9rem;
+}
+
+
+@media (max-width:48em){
+    .catalog__cart-img{
+        margin-bottom: 0rem;
+            
+         }
+}

@@ -1,0 +1,17 @@
+.modal__done{
+    position: absolute;
+    left: 50%;
+    top:-11.7rem;
+    transform: translate(-50%, 0);
+    width: 27.5rem;
+    height: 27.5rem;
+}
+
+
+@media (max-width:48em){
+    .modal__done{
+        top:-10rem;
+        width:24rem ;
+        height:24rem ;
+    }
+}

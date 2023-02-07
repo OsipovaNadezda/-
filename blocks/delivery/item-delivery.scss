@@ -1,0 +1,36 @@
+.item-delivery{
+    @include centered;
+    flex-direction: column;
+    max-width: 36.3rem;
+
+    &:nth-child(2){
+        & strong{
+            display: block;
+       }
+     margin-left:7.8rem ;
+     margin-right: 8.2rem;
+    }
+}
+
+@media (max-width:48em){
+    .item-delivery{
+      flex-direction: row;
+    align-items:flex-start;
+    justify-content: flex-start;
+        max-width: 100%;
+
+        &:not(:last-child){
+            margin-bottom: 4rem;
+        }
+    
+        &:nth-child(2){
+        margin-left:  0; 
+        margin-right:0; 
+          }
+    }
+
+    .delivery__description{
+        align-items:flex-start;
+        justify-content: flex-start;
+    }
+         }

@@ -1,0 +1,13 @@
+.footer__politics{
+@include font(500, 1.4rem, 140%);
+font-family: 'Inter', sans-serif;
+
+margin-bottom: .6rem;
+margin-right: 7.7rem;
+ }
+ 
+@media (max-width:48em){
+    .footer__politics{
+     display: none;
+ }
+ }

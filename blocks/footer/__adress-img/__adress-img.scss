@@ -1,0 +1,11 @@
+.footer__adress-img{
+    width: 1.7rem;
+    height:2.4rem ;
+    margin-right:1.26rem ;
+}
+
+@media (max-width:48em){
+    .footer__adress-img{
+        display: none;
+    }
+ }

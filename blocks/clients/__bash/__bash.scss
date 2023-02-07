@@ -1,0 +1,14 @@
+.clients__bash{
+    width: 17.9rem;
+    height: 4.4rem;
+    margin-right: 3.5rem;
+    }
+    @media (max-width:48em){
+        .clients__bash{
+            width: 27rem;
+            height: 8.6rem;
+            margin-right: -3.4rem;
+            padding-left: 0;
+            order: 3;
+            }
+      }

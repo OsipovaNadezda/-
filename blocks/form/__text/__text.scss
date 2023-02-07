@@ -1,0 +1,39 @@
+.form__text{
+    display: flex;
+    @include font(300, 1.8rem, 123%);
+    cursor: pointer;
+    
+    span{
+        margin-left: 1.8rem;
+    }
+
+    &::before{
+        content: '';
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        border-radius:.5rem;
+        background: #576077;
+        border: .1rem solid #6F7487;
+        flex-shrink: 0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:48em){
+    .form__text{
+        @include font(300, 2.4rem, 91.52%);
+        width: 45.5rem;
+        text-align: left;
+        
+        span{
+            margin-left: 0.8rem;
+        }
+    
+        &::before{
+            width: 4rem;
+            height: 4rem;
+            margin-left:4rem;
+       }
+    }
+  }

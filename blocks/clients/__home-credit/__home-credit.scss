@@ -1,0 +1,13 @@
+.clients__home-credit{
+    width: 12.9rem;
+    height: 6.5rem;
+    margin-right: 6.2rem;
+}
+@media (max-width:48em){
+    .clients__home-credit{
+        width: 19.6rem;
+        height: 12.6rem;
+        order: 2;
+        // margin-right: 6.2rem;
+    }
+  }

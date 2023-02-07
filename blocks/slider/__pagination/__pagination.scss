@@ -1,0 +1,14 @@
+.slider__pagination{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -7.5rem;
+    z-index: 200;
+}
+
+@media (max-width:48em){
+    .slider__pagination{
+        top: -20rem;
+        z-index: 200;
+    }
+}

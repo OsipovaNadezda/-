@@ -1,0 +1,21 @@
+.slider__slide{
+    height: 68rem;
+    padding-top: 11.6rem;
+    padding-bottom: 13.1rem;
+}
+
+@media (max-width:48em){
+    .slider__slide{
+        // height: 34.4rem;
+        padding-top: 11.6rem;
+        // padding-bottom: 13.1rem;
+
+        & .button__drive{
+            display: none;
+        }
+
+        & .slider__button-mob{
+            display: block;
+        }
+    }
+}

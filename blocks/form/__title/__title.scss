@@ -1,0 +1,12 @@
+.form__title{
+@include font(900, 4.4rem, 120%);
+margin-bottom: 0.9rem;
+width: 58.4rem;
+}
+@media (max-width:48em){
+    .from__title{
+    @include font(900, 5.6rem, 120%);
+    width: 58.4rem;
+    margin-bottom: 1.2rem;
+  }
+}

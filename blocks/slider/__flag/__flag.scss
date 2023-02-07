@@ -1,0 +1,18 @@
+.slider__flag{
+    display: inline-block;
+    position: absolute;
+    bottom: 1.9rem;
+    left: 66.5%;
+    transform: translate(-50%,0);
+    width: 5.4rem;
+    height: 6.5rem;
+}
+
+@media (max-width:48em){
+    .slider__flag{
+        bottom: 2.1rem;
+        left: 75.7%;
+        width: 3.6rem;
+        height: 4.4rem;
+    }
+}

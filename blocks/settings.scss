@@ -1,0 +1,38 @@
+.active {
+   display: flex;
+}
+
+.noscroll{
+    overflow: hidden !important;
+    height: 100% !important;
+}
+
+@media (max-width:48em){
+    .swiper-pagination-bullet{
+        width: .8rem;
+        height: .8rem;
+    
+        // &:nth-child(:last-child){
+        //     margin-bottom: .6rem;
+        // }
+    }
+}
+
+
+// .just-validate-error-label{
+//     padding-top: .5rem;
+//     font-style: 1.4rem;
+// }
+
+// @media (max-weight:48em){
+//     .noscroll{
+        
+//         & .header{
+//             position: fixed;
+//             top:0;
+//             left: 0;
+//             width: 100%;
+//             z-index: 100;
+//         }
+//     } 
+// }

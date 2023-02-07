@@ -1,0 +1,15 @@
+.header__mobile{
+  position: fixed;
+ left: 0;
+ right: 0;
+ top: 8rem;
+ z-index: 100;
+ padding-top: 8.6rem;
+ padding-bottom: 4rem;
+ @include centered;
+ flex-direction: column;
+  background-color: #FFFFFF;
+  box-shadow: 0 .4rem 1.2rem rgba(0, 0, 0, 0.04);
+  display: none;
+}
+

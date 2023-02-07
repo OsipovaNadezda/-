@@ -1,0 +1,12 @@
+.footer__tel{
+    @include font(400, 2rem, 140%);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+@media (max-width:48em){
+    .footer__tel{
+        @include font(400, 3rem, 140%);
+        margin-bottom: 3rem;
+    }
+ }

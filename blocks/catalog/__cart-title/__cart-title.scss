@@ -1,0 +1,15 @@
+.catalog__cart-title{
+    @include font(400, 2rem,130%);
+    text-align: center;
+    padding-left: 1rem;
+    padding-top: 0.8rem;
+    }
+
+    @media (max-width:48em){
+        .catalog__cart-title{
+            @include font(400, 2.8rem,130%);
+            padding-left: 0rem;
+            padding-top: 2rem;
+            margin-bottom: 0.6rem;
+            }
+    }

@@ -1,0 +1,15 @@
+.item-delivery__text{
+    @include font(500, 2.2rem,150%);
+text-align: center;
+margin-bottom:1.3rem ;
+padding-left: 0.4rem;
+}
+
+@media (max-width:48em){
+    .item-delivery__text{
+      text-align: left;
+      margin-bottom: 1rem;
+      @include font(500, 2.8rem,150%);
+    }
+        }
+

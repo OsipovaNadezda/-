@@ -1,0 +1,17 @@
+.catalog__cart-coin--new{
+    @include font(900, 2.8rem, 140%);
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    letter-spacing: -0.07rem;
+    }
+
+    
+@media (max-width:48em){
+    .catalog__cart-coin--new{
+        @include font(900, 4rem, 140%);
+        padding-top: 0;
+        padding-left: 0;
+        letter-spacing: -0.2rem;
+    
+        }
+}

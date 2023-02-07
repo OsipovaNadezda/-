@@ -1,0 +1,17 @@
+.modal__inner{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 18.2rem;
+    text-align: center;
+    z-index: 200;
+    width:77.4rem ;
+    height:36.8rem ;
+}
+
+@media (max-width:48em){
+    .modal__inner{
+        padding-top: 10rem;
+        width:55rem ;
+        height:25rem ;
+    }
+}

@@ -1,0 +1,20 @@
+.facts{
+    padding-bottom: 10.8rem;
+
+    .title{
+        padding-bottom: 2.5rem;
+    }
+}
+
+@media (max-width:48em){
+    .facts{
+        padding-top: 9.8rem;
+        padding-bottom: 12.8rem;
+    
+        .title{
+            @include font(900, 5.6rem, 120%);
+            padding-bottom: 3rem;
+        }
+    }
+ }
+

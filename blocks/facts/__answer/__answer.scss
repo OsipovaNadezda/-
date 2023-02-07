@@ -1,0 +1,19 @@
+.facts__answer{
+    padding-bottom: 3.3rem;
+    padding-right: 6.7rem;
+
+    @include font(400, 1.9rem,140%);
+    font-family: 'Inter', sans-serif;
+
+     display: none;
+}
+
+@media (max-width:48em){
+    .facts__answer{
+        padding-bottom: 0;
+        padding-right: 0;
+    
+        @include font(400, 2.6rem,120%);
+   
+    }
+  }

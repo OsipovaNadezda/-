@@ -1,0 +1,12 @@
+.footer__adress{
+    @include font(400, 1.7rem, 140%);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+@media (max-width:48em){
+    .footer__adress{
+        @include font(400, 3rem, 140%);
+        margin-bottom: 4rem;
+    }
+ }
